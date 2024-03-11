@@ -93,7 +93,7 @@ section img {
     margin-right: 32px;
 }
 
-section .container a {
+.container a {
     background-color: orange;
     color: #182c61;
     padding: 8px;
@@ -145,14 +145,6 @@ section h2 {
     padding-top: 40px;
 }
 
-.social-links img {
-    height: 24px;
-}
-
-.social-links li {
-    display: inline;
-}
-
 #contact .container {
     display: block;
 }
@@ -160,6 +152,19 @@ section h2 {
 .contact-methods {
     display: flex;
     justify-content: space-between;
+}
+
+.social-links img {
+    height: 24px;
+    margin-right: 24px;
+}
+
+.social-links li {
+    display: inline;
+}
+
+.social-links .social-link {
+    background-color: transparent;
 }
 
 textarea,
